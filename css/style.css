@@ -20,14 +20,18 @@ html{
     width: 100%;
     height: 100vh;
     background-color: black;
-    overflow: hidden;
+    
 }
 .screen{
     width: 100%;
     height: calc(100% - 120px);
     background-color: black;
     padding-top: 60px;
+    overflow: auto;
 }
+.screen::-webkit-scrollbar{
+    width: 0px;                          /* Far sparire scrollbar laterale */
+} 
 .menu{
     width: 100%;
     height: 120px;
