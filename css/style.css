@@ -46,22 +46,25 @@ html{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    gap: 10px 2px;
+    gap: 10px 5px;
     justify-content: space-around;
 }
 .row > .col{
-    width:calc(100% / 8 - 2px);
+    width:calc(100% / 8 - 5px);
     height: 160px;
     position: relative;
-   /*  background-image: url(https://picsum.photos/200);
+    background-image: url(https://picsum.photos/200);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 }
- .col > img{
+/*  .col > img{
     width: 100%;
     height: 100%;
-} 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}  */
 .col > .info{
     position: absolute;
     bottom: 0%;
