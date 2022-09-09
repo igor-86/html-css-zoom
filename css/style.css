@@ -50,29 +50,31 @@ html{
     justify-content: space-around;
 }
 .row > .col{
-    width:calc(100% / 8 - 5px);
-    height: 160px;
+    width:calc(100% / 7 - 5px);
+    /* height: 160px; */
     position: relative;
-    background-image: url(https://picsum.photos/200);
+}
+   /*  background-image: url(https://picsum.photos/200);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
-}
-/*  .col > img{
+
+} */
+ .col > img{
     width: 100%;
-    height: 100%;
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}  */
+}  
 .col > .info{
     position: absolute;
-    bottom: 0%;
+    bottom:4px;
     left: 0;
     display: flex;
     color: white;
     background-color: rgba(64, 64, 64, 0.7);
-    padding: 8px;
+    padding: 4px;
 }
 
 /* Speaker */
@@ -129,8 +131,7 @@ i.gr{
     font-size: 2rem;
     align-items: center;
     justify-content: space-around;
-    
-    
+    justify-self: center;
 }
 .menu-end{
     width: 10%;
